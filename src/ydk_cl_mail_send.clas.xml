@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>YDK_CL_MAIL_SEND</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Mail sending</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>YDK_CL_MAIL_SEND</CLSNAME>
+     <CMPNAME>ADD_ATTACHMENT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Add attachment</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>YDK_CL_MAIL_SEND</CLSNAME>
+     <CMPNAME>ADD_RECIPIENT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Add recipient</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>YDK_CL_MAIL_SEND</CLSNAME>
+     <CMPNAME>CBODY_TYPE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>mail body types constant, used in constructor</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>YDK_CL_MAIL_SEND</CLSNAME>
+     <CMPNAME>CEMAIL_BY_UID</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>for method ADD_RECIPIENT</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>YDK_CL_MAIL_SEND</CLSNAME>
+     <CMPNAME>DOCUMENT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>ref to mail document</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>YDK_CL_MAIL_SEND</CLSNAME>
+     <CMPNAME>GET_EMAIL_BY_UID</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get email by user SAP login</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>YDK_CL_MAIL_SEND</CLSNAME>
+     <CMPNAME>SEND</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Send</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
