@@ -153,7 +153,7 @@ CLASS YDK_CL_MAIL_SEND IMPLEMENTATION.
 
     IF recipient_email_tab IS SUPPLIED.
       LOOP AT recipient_email_tab ASSIGNING FIELD-SYMBOL(<recipient_email>).
-        lo_recipient = cl_cam_address_bcs=>create_internet_address( recipient_mail ).
+        lo_recipient = cl_cam_address_bcs=>create_internet_address( <recipient_email> ).
         send_request->add_recipient( i_recipient = lo_recipient i_express = 'X' ).
       ENDLOOP.
     ENDIF.

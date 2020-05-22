@@ -4,8 +4,8 @@
   <asx:values>
    <VSEOCLASS>
     <CLSNAME>YDK_CL_MAIL_SEND</CLSNAME>
-    <LANGU>E</LANGU>
-    <DESCRIPT>Mail sending</DESCRIPT>
+    <LANGU>R</LANGU>
+    <DESCRIPT>Отправка почты</DESCRIPT>
     <STATE>1</STATE>
     <CLSCCINCL>X</CLSCCINCL>
     <FIXPT>X</FIXPT>
